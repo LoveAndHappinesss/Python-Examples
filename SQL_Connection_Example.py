@@ -59,7 +59,7 @@ SELECT first_name, last_name
 FROM employee;
 '''
 
-connection = create_server_connection('localhost', 'root', 'Deutschemark1998', 'exampledb')
+connection = create_server_connection('localhost', 'root', 'x', 'exampledb')
 execute_query(connection, add_name)
 execute_query(connection, remove_name)
 results = read_query(connection, basic_select)
