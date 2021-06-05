@@ -5,3 +5,4 @@ Currently includes:
  * Multithreading using Threading
  * Web Scraping using BeautifulSoup4 and Request
  * SQL incorporation into Python script using SQL Connector
+ * Data Analysis using Numpy, Pandas, and Matplotlib
